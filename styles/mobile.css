@@ -11,3 +11,15 @@
 .main-section .hero-section .hero-image {
     min-height: 250px;
 }
+
+/* main article mobile view */
+.main-section .hero-section {
+    position: static;   
+}
+
+.main-section .hero-section .hero-description {
+    width: 80%;
+    left: 10%;
+    padding: 20px;
+    top: 300px
+}
