@@ -1,0 +1,51 @@
+* {
+    font-family: var(--font-family);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    height: 108px;
+}
+
+.header .header-wrapper {
+    display: flex;
+    padding: 32px 16px;
+    max-width: var(--max-width);
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .header-wrapper .logo {
+    height: 42px;
+}
+
+.header .navbar {
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.header .navbar .nav-menu {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.header .navbar .nav-menu li {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.header .navbar .nav-menu li a {
+    font-family: var(--font-family);
+    text-decoration: none;
+    color: #3b3c4a;
+
+    transition: color 0.5s;
+}
+
+.header .navbar .nav-menu li a:hover {
+    color: var(--primary-color);
+}
