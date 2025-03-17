@@ -70,3 +70,14 @@
     outline: none;
     color: #3b3c4a;
 }
+
+.header .header-wrapper .search-container {
+    position: relative;
+}
+
+.header .header-wrapper .search-container .search-icon {
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    pointer-events: none;
+}

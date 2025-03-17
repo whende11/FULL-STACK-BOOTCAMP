@@ -1,0 +1,7 @@
+.header .header-wrapper {
+    width: 100%;
+}
+
+.header .header-wrapper .navbar {
+    display: none;
+}
