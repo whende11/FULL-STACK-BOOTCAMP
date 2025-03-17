@@ -1,7 +1,13 @@
+/* navbar mobile view */
 .header .header-wrapper {
     width: 100%;
 }
 
 .header .header-wrapper .navbar {
     display: none;
+}
+
+/* main image mobile view */
+.main-section .hero-section .hero-image {
+    min-height: 250px;
 }
