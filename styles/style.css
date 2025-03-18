@@ -156,3 +156,14 @@
     font-weight: 500;
 }
 
+/* latest posts styles */
+.main-section .blogs-section {
+    margin-top: 10rem;
+}
+
+.main-section .blogs-section h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
