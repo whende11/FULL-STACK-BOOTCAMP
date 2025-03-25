@@ -21,7 +21,7 @@
     width: 80%;
     left: 10%;
     padding: 20px;
-    top: 300px
+    top: 300px;
 }
 
 .main-section .hero-section .hero-description h1 {
@@ -29,3 +29,11 @@
     line-height: 1.2;
 }
 
+/* article latest post mobile view */
+.main-section .blogs-section {
+    margin-top: 16rem;
+}
+
+.main-section .blogs-section .posts .single-post {
+    flex-basis: 100%;
+}
